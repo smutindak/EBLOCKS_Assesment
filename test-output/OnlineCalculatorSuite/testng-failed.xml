@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [OnlineCalculatorSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="OnlineCalculatorTests(failed)">
+    <classes>
+      <class name="onlinecalculator.Subtraction">
+        <methods>
+          <include name="Subtraction"/>
+        </methods>
+      </class> <!-- onlinecalculator.Subtraction -->
+    </classes>
+  </test> <!-- OnlineCalculatorTests(failed) -->
+</suite> <!-- Failed suite [OnlineCalculatorSuite] -->

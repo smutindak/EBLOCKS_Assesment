@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-15T23:14:47 EAT" name="OnlineCalculatorSuite" finished-at="2022-10-15T23:16:03 EAT" duration-ms="75141">
+    <groups>
+    </groups>
+    <test started-at="2022-10-15T23:14:47 EAT" name="OnlineCalculatorTests" finished-at="2022-10-15T23:16:03 EAT" duration-ms="75141">
+      <class name="onlinecalculator.Addition">
+        <test-method signature="Addition()[pri:0, instance:onlinecalculator.Addition@3f6b0be5]" started-at="2022-10-15T23:14:57 EAT" name="Addition" finished-at="2022-10-15T23:15:03 EAT" duration-ms="5376" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Addition -->
+      </class> <!-- onlinecalculator.Addition -->
+      <class name="onlinecalculator.ClearButton">
+        <test-method signature="ClearButton()[pri:0, instance:onlinecalculator.ClearButton@48f278eb]" started-at="2022-10-15T23:15:25 EAT" name="ClearButton" finished-at="2022-10-15T23:15:36 EAT" duration-ms="10921" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClearButton -->
+      </class> <!-- onlinecalculator.ClearButton -->
+      <class name="onlinecalculator.Division">
+        <test-method signature="Divison()[pri:0, instance:onlinecalculator.Division@611889f4]" started-at="2022-10-15T23:15:03 EAT" name="Divison" finished-at="2022-10-15T23:15:14 EAT" duration-ms="11635" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Divison -->
+      </class> <!-- onlinecalculator.Division -->
+      <class name="onlinecalculator.NegativeValues">
+        <test-method signature="NegativeValues()[pri:0, instance:onlinecalculator.NegativeValues@2f217633]" started-at="2022-10-15T23:15:36 EAT" name="NegativeValues" finished-at="2022-10-15T23:15:54 EAT" duration-ms="17958" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NegativeValues -->
+      </class> <!-- onlinecalculator.NegativeValues -->
+      <class name="onlinecalculator.DivideByZero">
+        <test-method signature="DivideByZero()[pri:0, instance:onlinecalculator.DivideByZero@a530d0a]" started-at="2022-10-15T23:15:54 EAT" name="DivideByZero" finished-at="2022-10-15T23:16:03 EAT" duration-ms="9009" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DivideByZero -->
+      </class> <!-- onlinecalculator.DivideByZero -->
+      <class name="onlinecalculator.Subtraction">
+        <test-method signature="Subtraction()[pri:0, instance:onlinecalculator.Subtraction@1da2cb77]" started-at="2022-10-15T23:15:14 EAT" name="Subtraction" finished-at="2022-10-15T23:15:25 EAT" duration-ms="10441" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Subtraction -->
+      </class> <!-- onlinecalculator.Subtraction -->
+      <class name="onlinecalculator.Multiplication">
+        <test-method signature="Multiplication()[pri:0, instance:onlinecalculator.Multiplication@3d6f0054]" started-at="2022-10-15T23:14:47 EAT" name="Multiplication" finished-at="2022-10-15T23:14:57 EAT" duration-ms="9776" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Multiplication -->
+      </class> <!-- onlinecalculator.Multiplication -->
+    </test> <!-- OnlineCalculatorTests -->
+  </suite> <!-- OnlineCalculatorSuite -->
+</testng-results>

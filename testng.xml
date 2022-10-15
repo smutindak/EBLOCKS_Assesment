@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="OnlineCalculatorSuite">
+
+  <test thread-count="5" name="OnlineCalculatorTests">
+    <classes>
+      <class name="onlinecalculator.Multiplication"/>
+      <class name="onlinecalculator.Addition"/>
+      <class name="onlinecalculator.Division"/>
+      <class name="onlinecalculator.Subtraction"/>
+      <class name="onlinecalculator.ClearButton"/>
+      <class name="onlinecalculator.NegativeValues"/>
+      <class name="onlinecalculator.DivideByZero"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
