@@ -50,7 +50,7 @@ public class ClearButton {
 
 		// TakeScreenShot
 		File src = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-		FileUtils.copyFile(src, new File("/Users/shakur/screenshot/ClearButton.png"));
+		FileUtils.copyFile(src, new File("/ClearButton.png"));
 
 		Assert.assertEquals(result, ExpectedResults.ClearButton);
 

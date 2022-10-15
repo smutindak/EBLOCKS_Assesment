@@ -51,7 +51,7 @@ public class Addition {
 
 		// TakeScreenShot
 		File src = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-		FileUtils.copyFile(src, new File("/Users/shakur/screenshot/Addition.png"));
+		FileUtils.copyFile(src, new File("/Addition.png"));
 
 		Assert.assertEquals(result, ExpectedResults.AdditionResults);
 
