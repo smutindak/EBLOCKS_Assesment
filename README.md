@@ -8,7 +8,7 @@ This is an online calculator project which has been tested through Automation Te
 
 ## Assessment outcome
 
-The objective of this project is to be able to automate the basic mathematical operations of a calculate which inclde
+The objective of this project is to be able to automate the basic mathematical operations of an online calculator which include
 
 *- 1. Addition Functionalies
 
