@@ -29,17 +29,17 @@ The objective of this project is to be able to automate the basic mathematical o
 	
 I have used the following tools/frameworks to achieve the automation testing;
 
-*Selenium*
+* Selenium
 
-*Javascripts / Java*
+* Javascripts / Java
 
-*TestNG Testing framework*
+* TestNG Testing framework
 
-*TestNG Testing framework for reporting - Reports can be found in the test output folder in the index.html file*
+* TestNG Testing framework for reporting - Reports can be found in the test output folder in the index.html file
 
-*Maven has been used to download dependancies which are in the POM file*
+* Maven has been used to download dependancies which are in the POM file
 
-*TestNG XML - This has been used to order the test cases and their running order*
+* TestNG XML - This has been used to order the test cases and their running order
 
 
 
