@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="onlinecalculator.DivideByZero">
+      <class name="onlinecalculator.Addition">
         <methods>
-          <include name="DivideByZero"/>
+          <include name="Addition"/>
         </methods>
-      </class> <!-- onlinecalculator.DivideByZero -->
+      </class> <!-- onlinecalculator.Addition -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

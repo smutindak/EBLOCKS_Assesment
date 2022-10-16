@@ -35,7 +35,7 @@ public class Addition {
 		Object firstValue = js.executeScript(
 				"document.getElementById('canvas').dispatchEvent(new KeyboardEvent('keypress',{which:53,keyCode:53,bubbles:true}))");
 		Thread.sleep(600);
-	
+
 		Object operator = js.executeScript(
 				"document.getElementById('canvas').dispatchEvent(new KeyboardEvent('keypress',{which:43,keyCode:43,bubbles:true}))");
 		Thread.sleep(500);
@@ -51,7 +51,7 @@ public class Addition {
 
 		// TakeScreenShot
 		File src = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-		FileUtils.copyFile(src, new File("/Addition.png"));
+		FileUtils.copyFile(src, new File(CurrentWorkingDirectory.current + File.separator + "/ScreenShots/Addition.png"));
 
 		Assert.assertEquals(result, ExpectedResults.AdditionResults);
 

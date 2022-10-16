@@ -55,7 +55,7 @@ public class NegativeValues {
 
 		// TakeScreenShot
 		File src = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-		FileUtils.copyFile(src, new File("/NegativeValues.png"));
+		FileUtils.copyFile(src, new File(CurrentWorkingDirectory.current + File.separator + "/ScreenShots/NegativeValues.png"));
 
 		// Assert expectation
 		Assert.assertEquals(result, ExpectedResults.NegativeValue);

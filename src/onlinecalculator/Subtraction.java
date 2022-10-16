@@ -52,7 +52,7 @@ public class Subtraction {
 
 		// TakeScreenShot
 		File src = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-		FileUtils.copyFile(src, new File("/Subtraction.png"));
+		FileUtils.copyFile(src, new File(CurrentWorkingDirectory.current + File.separator + "/ScreenShots/Subtraction.png"));
 
 		// Assert expectation
 		Assert.assertEquals(result, ExpectedResults.Subtraction);

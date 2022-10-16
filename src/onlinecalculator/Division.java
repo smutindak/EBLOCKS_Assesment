@@ -50,7 +50,7 @@ public class Division {
 
 		// TakeScreenShot
 		File src = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-		FileUtils.copyFile(src, new File("/Division.png"));
+		FileUtils.copyFile(src, new File(CurrentWorkingDirectory.current + File.separator + "/ScreenShots/Divison.png"));
 
 		Assert.assertEquals(result, ExpectedResults.Division);
 
