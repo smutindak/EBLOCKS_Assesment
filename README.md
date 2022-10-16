@@ -41,9 +41,5 @@ I have used the following tools/frameworks to achieve the automation testing;
 
 *TestNG XML - This has been used to order the test cases and their running order*
 
-## NB
-
-Kindly change the screen shot path in the test cases with your local path on your machine to be able to save the screen shots
-
 
 
