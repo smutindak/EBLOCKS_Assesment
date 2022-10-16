@@ -50,8 +50,10 @@ public class DivideByZero {
 
 		// TakeScreenShot
 		File src = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-		FileUtils.copyFile(src, new File(CurrentWorkingDirectory.current + File.separator + "/ScreenShots/DivideByZero.png"));
+		FileUtils.copyFile(src,
+				new File(Config.current_work_directory + File.separator + "/ScreenShots/DivideByZero.png"));
 
+		// Assert expectation
 		Assert.assertEquals(result, ExpectedResults.DivideByZero);
 
 		// Quit Browser

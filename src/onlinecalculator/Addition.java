@@ -51,8 +51,9 @@ public class Addition {
 
 		// TakeScreenShot
 		File src = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-		FileUtils.copyFile(src, new File(CurrentWorkingDirectory.current + File.separator + "/ScreenShots/Addition.png"));
+		FileUtils.copyFile(src, new File(Config.current_work_directory + File.separator + "/ScreenShots/Addition.png"));
 
+		// Assert expectation
 		Assert.assertEquals(result, ExpectedResults.AdditionResults);
 
 		// Quit Browser

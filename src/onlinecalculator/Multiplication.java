@@ -53,8 +53,10 @@ public class Multiplication {
 
 		// TakeScreenShot
 		File src = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-		FileUtils.copyFile(src, new File(CurrentWorkingDirectory.current + File.separator + "/ScreenShots/Multiplication.png"));
+		FileUtils.copyFile(src,
+				new File(Config.current_work_directory + File.separator + "/ScreenShots/Multiplication.png"));
 
+		// Assert expectation
 		Assert.assertEquals(result, ExpectedResults.Multipication);
 
 		// Quit Browser
