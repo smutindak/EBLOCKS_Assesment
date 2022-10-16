@@ -33,7 +33,7 @@ I have used the following tools/frameworks to achieve the automation testing;
 
 * Javascripts / Java
 
-* TestNG Testing framework
+* TestNG Testing framework (This has been included in the POM XML file and also has to be installed in the IDE Market place. I'm currently using Eclipse   IDE)
 
 * TestNG Testing framework for reporting - Reports can be found in the test output folder in the index.html file
 
