@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-OnlineCalculatorSuite" class="navigator-link">
+              <span class="suite-name border-passed">OnlineCalculatorSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-OnlineCalculatorSuite" class="navigator-link ">
+                    <span>testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-OnlineCalculatorSuite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-OnlineCalculatorSuite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-OnlineCalculatorSuite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-OnlineCalculatorSuite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-OnlineCalculatorSuite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-OnlineCalculatorSuite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">7 methods,   7 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-OnlineCalculatorSuite" class="hide-methods passed suite-OnlineCalculatorSuite"> (hide)</a> <!-- hide-methods passed suite-OnlineCalculatorSuite -->
+                      <a href="#" panel-name="suite-OnlineCalculatorSuite" class="show-methods passed suite-OnlineCalculatorSuite"> (show)</a> <!-- show-methods passed suite-OnlineCalculatorSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-OnlineCalculatorSuite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OnlineCalculatorSuite" title="onlinecalculator.Addition" class="method navigator-link" hash-for-method="Addition">Addition</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OnlineCalculatorSuite" title="onlinecalculator.ClearButton" class="method navigator-link" hash-for-method="ClearButton">ClearButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OnlineCalculatorSuite" title="onlinecalculator.DivideByZero" class="method navigator-link" hash-for-method="DivideByZero">DivideByZero</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OnlineCalculatorSuite" title="onlinecalculator.Division" class="method navigator-link" hash-for-method="Divison">Divison</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OnlineCalculatorSuite" title="onlinecalculator.Multiplication" class="method navigator-link" hash-for-method="Multiplication">Multiplication</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OnlineCalculatorSuite" title="onlinecalculator.NegativeValues" class="method navigator-link" hash-for-method="NegativeValues">NegativeValues</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OnlineCalculatorSuite" title="onlinecalculator.Subtraction" class="method navigator-link" hash-for-method="Subtraction">Subtraction</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-OnlineCalculatorSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-OnlineCalculatorSuite" class="panel OnlineCalculatorSuite">
+          <div class="suite-OnlineCalculatorSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">onlinecalculator.Subtraction</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Subtraction">
+                  </a> <!-- Subtraction -->
+                  <span class="method-name">Subtraction</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-OnlineCalculatorSuite-class-passed -->
+          <div class="suite-OnlineCalculatorSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">onlinecalculator.Division</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Divison">
+                  </a> <!-- Divison -->
+                  <span class="method-name">Divison</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-OnlineCalculatorSuite-class-passed -->
+          <div class="suite-OnlineCalculatorSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">onlinecalculator.DivideByZero</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="DivideByZero">
+                  </a> <!-- DivideByZero -->
+                  <span class="method-name">DivideByZero</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-OnlineCalculatorSuite-class-passed -->
+          <div class="suite-OnlineCalculatorSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">onlinecalculator.ClearButton</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ClearButton">
+                  </a> <!-- ClearButton -->
+                  <span class="method-name">ClearButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-OnlineCalculatorSuite-class-passed -->
+          <div class="suite-OnlineCalculatorSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">onlinecalculator.Multiplication</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Multiplication">
+                  </a> <!-- Multiplication -->
+                  <span class="method-name">Multiplication</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-OnlineCalculatorSuite-class-passed -->
+          <div class="suite-OnlineCalculatorSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">onlinecalculator.Addition</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Addition">
+                  </a> <!-- Addition -->
+                  <span class="method-name">Addition</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-OnlineCalculatorSuite-class-passed -->
+          <div class="suite-OnlineCalculatorSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">onlinecalculator.NegativeValues</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="NegativeValues">
+                  </a> <!-- NegativeValues -->
+                  <span class="method-name">NegativeValues</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-OnlineCalculatorSuite-class-passed -->
+        </div> <!-- panel OnlineCalculatorSuite -->
+        <div panel-name="test-xml-OnlineCalculatorSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/shakur/eclipse-workspace/EBLOCKS_Assesment/testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;OnlineCalculatorSuite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;OnlineCalculatorTests&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;onlinecalculator.Multiplication&quot;/&gt;
+      &lt;class name=&quot;onlinecalculator.Addition&quot;/&gt;
+      &lt;class name=&quot;onlinecalculator.Division&quot;/&gt;
+      &lt;class name=&quot;onlinecalculator.Subtraction&quot;/&gt;
+      &lt;class name=&quot;onlinecalculator.ClearButton&quot;/&gt;
+      &lt;class name=&quot;onlinecalculator.NegativeValues&quot;/&gt;
+      &lt;class name=&quot;onlinecalculator.DivideByZero&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- OnlineCalculatorTests --&gt;
+&lt;/suite&gt; &lt;!-- OnlineCalculatorSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-OnlineCalculatorSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for OnlineCalculatorSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">OnlineCalculatorTests (7 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-OnlineCalculatorSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for OnlineCalculatorSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-OnlineCalculatorSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for OnlineCalculatorSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_OnlineCalculatorSuite');
+function tableData_OnlineCalculatorSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(7);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'NegativeValues')
+data.setCell(0, 2, 'onlinecalculator.NegativeValues')
+data.setCell(0, 3, 76792);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'DivideByZero')
+data.setCell(1, 2, 'onlinecalculator.DivideByZero')
+data.setCell(1, 3, 56877);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'Subtraction')
+data.setCell(2, 2, 'onlinecalculator.Subtraction')
+data.setCell(2, 3, 31981);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'Multiplication')
+data.setCell(3, 2, 'onlinecalculator.Multiplication')
+data.setCell(3, 3, 7721);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'ClearButton')
+data.setCell(4, 2, 'onlinecalculator.ClearButton')
+data.setCell(4, 3, 5730);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'Addition')
+data.setCell(5, 2, 'onlinecalculator.Addition')
+data.setCell(5, 3, 5670);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'Divison')
+data.setCell(6, 2, 'onlinecalculator.Division')
+data.setCell(6, 3, 5265);
+window.suiteTableData['OnlineCalculatorSuite']= { tableData: data, tableDiv: 'times-div-OnlineCalculatorSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <div id="times-div-OnlineCalculatorSuite">
+              </div> <!-- times-div-OnlineCalculatorSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-OnlineCalculatorSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for OnlineCalculatorSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-OnlineCalculatorSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-OnlineCalculatorSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">onlinecalculator.Multiplication</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Multiplication</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">onlinecalculator.Addition</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Addition</span>
+                <span class="method-start">7724 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">onlinecalculator.Division</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Divison</span>
+                <span class="method-start">13396 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">onlinecalculator.Subtraction</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Subtraction</span>
+                <span class="method-start">18662 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">onlinecalculator.ClearButton</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">ClearButton</span>
+                <span class="method-start">50644 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">onlinecalculator.NegativeValues</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">NegativeValues</span>
+                <span class="method-start">56374 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">onlinecalculator.DivideByZero</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">DivideByZero</span>
+                <span class="method-start">133167 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

@@ -11,6 +11,7 @@
       <class name="onlinecalculator.ClearButton"/>
       <class name="onlinecalculator.NegativeValues"/>
       <class name="onlinecalculator.DivideByZero"/>
+      <class name="onlinecalculator.AdditionMultiplication"/>      
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

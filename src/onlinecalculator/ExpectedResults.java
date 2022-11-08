@@ -9,5 +9,7 @@ public class ExpectedResults {
 	public static String DivideByZero = "Error";
 	public static String ClearButton = "0";
 	public static String NegativeValue = "-13";
+	public static String AdditionMultiplication = "41";
+	
 
 }
