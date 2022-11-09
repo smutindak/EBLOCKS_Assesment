@@ -6,7 +6,7 @@
 
 This is an online calculator project which has been tested through Automation Testing using Selenium Automation Framework in conjuction with JAVA.
 
-## Assessment outcome
+## Assessment outcome.
 
 The objective of this project is to be able to automate the basic mathematical operations of an online calculator which include
 
